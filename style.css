@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Proxima Nova Condensed","Proxima Nova Condensed Fallback",sans-serif;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;  
+    font-weight: bold;
+    position: fixed;
+    z-index: 100;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+}
+
+.header-section{
+    display: flex;
+    margin-left: 200px ;
+}
+
+.header-section h1{
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.header-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.each-header{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.each-header a:hover{
+    cursor: pointer;
+    color: #fcba44;
+}
+
+.search-section{
+    display: flex;
+    width: 9vw;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.search-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-section a:hover{
+    cursor: pointer;
+    color: #fcba44;
+}
+
+.recommendations{
+    display: flex;
+    margin: 120px 200px 80px 200px;
+}
+
+.topic-image{
+    border-radius: 5px;
+    margin-right: 50px;
+    background-image: url("images/Your\ Guide\ to\ Managing\ Retirement\ Depression.jpeg");
+    width: 65vw;
+    height: 80vh;  
+    background-size: cover;
+    background-position: 3000px 0px;
+}
+
+.topic {
+    background-color: white;
+    width: 35vw;
+    height: 25vh;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50vh;
+}
+
+.topic h1{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.topic p{
+    color: rgb(68, 67, 67);
+    padding: 0px 15px 15px 15px;
+    line-height: 25px;
+}
+
+.topic-image2{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(images/granddaughter-talking-with-her-grandmother-sitting-wheelchair-cheerful-concept-happy-family-870x600.jpg);
+    height: 54vh;
+    background-size: cover;
+}
+
+.topic a{
+    text-decoration: none;
+    color: black;
+}
+
+.topic a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.topic2{
+    background-color: white;
+    margin-top: 25vw;
+    height: 186px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.topic2 h1{
+    width: 28vw;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.topic2 p{
+    padding: 0px 15px 15px 15px;
+    font-size: small;
+    color: rgb(68, 67, 67);
+    line-height: 20px;    
+}
+
+.topic2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.topic2 a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+
+.explore{
+    margin: 0px 200px 80px 200px;
+}
+
+.explore-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.explore-heading a{
+    text-decoration: none;
+    color: #02838d;
+}
+
+.explore-heading a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.each-explore img{
+    width: 12vw;
+}
+
+.each-explore h1{
+    text-align: center;
+}
+
+.each-explore img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.each-explore a{
+    text-decoration: none;
+    color: black;
+}
+
+.each-explore a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.just-in{
+    margin: 0px 200px 80px 200px;
+}
+
+.just-in-heading{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.each-in{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sub-in{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+.sub-in img{
+    width: 12vw;
+    margin: 0px 15px 15px 0px;
+}
+
+.sub-in img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.sub-in h2{
+    margin: 15px 10px 15px 10px;
+    font-size: 20px;
+}
+
+.sub-in a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-in a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.top-reads{
+    margin: 0px 200px 60px 200px;
+}
+
+.top-reads-heading h1{
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.reads{
+    display: flex;
+}
+
+.each-reads img{
+    height: 28vh;
+    width: 16vw;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0px 45px 0px 0px;
+}
+
+.each-reads img:hover{
+    opacity: 0.7;
+}
+
+.each-reads a{
+    text-decoration: none;
+    color: black;
+}
+
+.each-reads a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.each-reads p{   
+    margin: 10px 30px 10px 0px;
+    font-size: 15px;
+}
+
+.health{
+    margin: 0px 200px 60px 200px;
+}
+
+.health-heading{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.health-heading a{
+    text-decoration: none;
+    color: #02838d;
+}
+
+.health-heading a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.health-category{
+    display: flex;
+}
+
+.each-health img{
+    width: 12vw;
+    height: 24vh;
+    margin: 40px 49px 0px 0px;
+    border-radius: 5px;
+}
+
+.each-health h1{
+    width: 12vw;
+    text-align: center;
+    margin: 15px 15px 0px 0px;
+}
+
+.each-health img:hover{
+    opacity: 0.7;
+}
+
+.each-health a{
+    text-decoration: none;
+    color: black;
+}
+
+.each-health a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115);
+}
+
+.reviews{
+    margin: 0px 200px 80px 200px;
+}
+
+.review-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.review-heading a{
+    color: #02838d;
+    text-decoration: none;
+}
+
+.review-heading a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+
+}
+
+.review-category{
+    display: flex;
+    justify-content: space-between;
+}
+
+.each-reviews img{
+    width: 12vw;
+}
+
+.each-reviews h1{
+    text-align: center;
+    width: 12vw;
+}
+
+.each-reviews a{
+    text-decoration: none;
+    color: black;
+}
+
+.each-reviews img:hover{
+    opacity: 0.7;
+}
+
+.each-reviews a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.spotlight{
+    margin: 0px 200px 60px 200px;
+}
+
+.spotlight-category{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0px;
+}
+
+.each-spotlight img{
+    width: 17vw;
+}
+
+.each-spotlight a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.research{
+    background-color: rgb(209, 232, 232);
+    margin-bottom: 60px;
+   
+}
+
+.research-content{
+    height: 80vh;
+    margin: 0px 200px 0px 200px;
+    background-image: url(images/HL-Editorial-Standard-Widget.webp);
+    background-size: 40vw;
+    background-position-x: 560px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.content{
+    margin-bottom: 40px;
+    padding-top: 60px;
+    font-size: 26px;
+   
+}
+.sub-content{
+    width: 34vw;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(46, 45, 45);
+}
+
+.sub-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-content a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.sub-content p{
+    margin-bottom: 20px;
+}
+
+.sub-content li{
+    margin-bottom: 20px;
+}
+
+.sponsored{
+    margin: 0px 200px 60px 200px;  
+}
+
+.sponsored-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.sponsored-heading a{
+    text-decoration: none;
+    color: #02838d; 
+}
+
+.sponsored-heading a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.sponsored-topic{
+    display: flex;
+}
+
+.each-topic p{
+    margin: 0px 30px 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 17vw;
+    line-height: 20px;
+}
+
+.each-topic a{
+    color: black;
+    text-decoration: none;
+}
+
+.each-topic img:hover{
+    opacity: 0.7;
+}
+
+.each-topic a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.each-topic img{
+    width: 17vw;
+    border-radius: 5px;
+}
+
+.footer1{
+    background-color: #fbf5ed;
+    height: 70vh;
+}
+
+.footer1-top{
+    
+    display: flex;
+    margin: 0px 200px 0px 200px; 
+    padding-top: 60px;
+}
+
+
+.footer1-heading h1{
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.footer1-medias{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer1-info{
+    margin: 50px 200px 50px 200px;
+    display: flex;  
+}
+
+.subscription{
+    width: 40vw;
+    margin: 0px 50px 0px 0px;
+}
+
+.subscription-heading h2{
+    margin-bottom: 20px;
+}
+
+.subscription-heading p{
+    margin-bottom: 20px;
+}
+
+.subscription-info{
+    margin-bottom: 20px;
+}
+
+.subscription a{
+    color: black;
+}
+
+.subscription a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.subscription-info input{
+    width: 15vw;
+    height: 45px;
+    margin-right: 0px;
+    font-size: 17px;
+   text-indent: 20px;
+
+}
+
+.subscription-info button{
+    width: 9vw;
+    height: 50px;
+    background-color: #02838d;
+    border: none;
+    color: white;
+    padding-top: 3px;
+}
+
+.subscription-info button:hover{
+    cursor: pointer;
+    background-color: rgb(220, 62, 115) ;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw; 
+    margin-left: 50px;
+}
+
+.each-column-1{
+    margin: 0px 50px 30px 0px;
+    width: 8vw;
+}
+
+.each-column-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.each-column-1 a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.each-column-2{
+    margin: 0px 50px 30px 0px;
+}
+
+.each-column-2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.each-column-2 a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.footer-2{
+    background-color: black;
+    height: 15vh;
+    color: white;
+}
+
+.footer2-main{
+    font-size: 13px;
+}
+
+.footer2-content{
+    display: flex;
+    justify-content: space-between ;
+    margin: 0px 200px 0px 200px;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.footer2-logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer2-info{
+    margin-right: 30px;
+}
+
+.info-about{
+    display: flex;
+    margin: 0px 0px 0px 18vw;
+}
+
+.info-about a{
+    color: white;
+}
+
+.info-about a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.info-about p{
+    margin-right: 15px;
+}
+
+.brands{
+    display: flex;
+    margin-top: 12px;
+}
+
+.brands a{
+   color: white;
+}
+
+.brands a:hover{
+    cursor: pointer;
+    color: rgb(220, 62, 115) ;
+}
+
+.brands p{
+    margin-right: 20px;
+}
+
+.footer2-main{
+    display: flex;
+}
+
+.sub-logo img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
